@@ -1,6 +1,6 @@
 # git command
 # commit with message
-function gc {
+function commit {
     $message = $args -join " "
     if (-not $message) { $message = "manual commit" }
     git commit -m "$message"

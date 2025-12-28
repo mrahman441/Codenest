@@ -54,34 +54,6 @@ matches:
   - trigger: ":download"
     replace: "yt-dlp -f bestaudio -x --audio-format mp3 "
 
-  # Git bash
-  - trigger: ",s"
-    replace: "git status"
-
-  - trigger: ",b"
-    replace: "git branch"
-
-  - trigger: ",g"
-    replace: 'gac "$|$"'
-
-  - trigger: ",a"
-    replace: "git add ."
-
-  - trigger: ",c"
-    replace: 'gac "$|$"'
-
-  - trigger: ",o"
-    replace: "git checkout "
-
-  - trigger: ",p"
-    replace: "git push "
-
-  - trigger: ",l"
-    replace: "git pull"
-
-  - trigger: ",m"
-    replace: "git merge "
-
   # coding
   - trigger: ",run"
     replace: 'g++ -std=c++23 -DLOCAL $|$; .\a.exe'

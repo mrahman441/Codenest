@@ -12,6 +12,7 @@
     {"key": "alt+h", "command": "cursorHome", "when": "editorTextFocus"},
     {"key": "alt+k","command": "selectNextSuggestion","when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible"},
     {"key": "alt+i","command": "selectPrevSuggestion","when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible"},
+    
 
     // move cursors in terminal
     {"key": "alt+i", "command": "workbench.action.terminal.sendSequence", "args": {"text": "\u001b[A"}, "when": "terminalFocus"},
@@ -33,9 +34,8 @@
     {"key": "alt+a","command": "workbench.action.previousEditor"},
 
     // Terminal Operations
-    {"key": "ctrl+shift+j", "command": "workbench.action.terminal.new"},
-    {"key": "ctrl+alt+k", "command": "workbench.action.terminal.kill", "when": "terminalFocus"},
+    {"key": "ctrl+alt+j", "command": "workbench.action.terminal.new"},
     {"key": "ctrl+tab", "command": "workbench.action.terminal.focusNext", "when": "terminalFocus"},
-    {"key": "ctrl+shift+k","command": "workbench.action.terminal.kill","when": "terminalFocus"},
-    {"key": "ctrl+alt+k","command": "workbench.action.terminal.killAll","when": "terminalFocus"}
+    {"key": "ctrl+alt+k","command": "workbench.action.terminal.kill","when": "terminalFocus"},
+    {"key": "ctrl+alt+x","command": "workbench.action.terminal.killAll","when": "terminalFocus"},
 ]

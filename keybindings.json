@@ -37,5 +37,5 @@
     {"key": "ctrl+alt+j", "command": "workbench.action.terminal.new"},
     {"key": "ctrl+tab", "command": "workbench.action.terminal.focusNext", "when": "terminalFocus"},
     {"key": "ctrl+alt+k","command": "workbench.action.terminal.kill","when": "terminalFocus"},
-    {"key": "ctrl+alt+x","command": "workbench.action.terminal.killAll","when": "terminalFocus"},
+    {"key": "ctrl+alt+x","command": "workbench.action.terminal.killAll","when": "terminalFocus"}
 ]

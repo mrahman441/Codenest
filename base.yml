@@ -38,9 +38,6 @@ matches:
   - trigger: ":um"
     replace: "maahbub620@gmail.com"
 
-  - trigger: ":bm"
-    replace: "www.mahbubr@gmail.com"
-
   # Handle
   - trigger: ":cf"
     replace: "TribalLiege"
